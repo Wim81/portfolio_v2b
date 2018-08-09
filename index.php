@@ -252,15 +252,15 @@
             <div class="content_about">
 
                 <div id="about_text_1" class="about_item">
-                    <p>Hi, my name is Wim, and I am currently a student, looking forward to becoming a professional web developer. I am currently 35 years old. Before I returned to studying, I have worked for a Swiss pharmaceutical company for just over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why I am changing direction now.</p>
+                    <p>Hi, my name is Wim, and I am a web developer. I am currently <span id="my_age"></span> years old. I have worked for a Swiss pharmaceutical company for over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why went back to school to get me a web development degree.</p>
                     <br>
-                    <p>In the summer of 2018, I will graduate from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
+                    <p>In the summer of 2018, I graduated from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
                 </div>
 
                 <img src="images/bg_image_blue_on_white_v2.png" class="about_item" id="about_image">
 
                 <div id="about_text_2" class="about_item">
-                    <p>Even though I am not taking formal assignments yet, I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
+                    <p>I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
                         <br>
                         <p>I mainly like all things front-end: HTML, CSS/Sass, JS/Jquery. From a back-end point of view, I like working with PHP. Designing is fun as well. Even though I am not a trained illustrator, I know my way around Photoshop and Illustrator and I am always keen to learn new things.</p>
                     <br>
