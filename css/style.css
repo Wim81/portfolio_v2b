@@ -738,7 +738,7 @@ em {
 }
 
 /*  media query vanaf 640 pixels  */
-@media (min-width: 640px) {
+@media (min-width: 640px) and (min-height: 780px) {
     .main_area {
         background-size: initial;
         background-position: -360px calc(100% + 70px), calc(100% + 370px) calc(100% + 70px);
