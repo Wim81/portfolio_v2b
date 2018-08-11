@@ -110,10 +110,8 @@ body {
 .bg_animation {
     box-sizing: border-box;
     position: fixed;
-    /* ik peins dat deze 2 anders moeten */
     top: 23px;
     left: 23px;
-    /* iets met bottom zou meer sense maken */
     width: calc(100vw - 46px);
     height: calc(100vh - 46px);
     background-color: transparent;
@@ -122,7 +120,6 @@ body {
     background-repeat: no-repeat;
     background-size: 530px 530px, 530px 530px;
     background-position: left -250px bottom -55px, right -260px bottom -55px;
-    background-color: transparent;
     -webkit-animation-name: animation;
     animation-name: animation;
     -webkit-animation-duration: 20s;
@@ -393,7 +390,7 @@ a:active{
 }
 
 #work_item_2 {
-    background-image: url("../images/work/preview_2_danysstyle_bw.jpg");
+    background-image: url("../images/work/preview_1_bauweraertsjef_bw.jpg");
 }
 
 #work_item_3 {
@@ -405,7 +402,7 @@ a:active{
 }
 
 #work_item_5 {
-    background-image: url("../images/work/preview_5_404_bw.jpg");
+    background-image: url("../images/work/preview_1_bauweraertsjef_bw.jpg");
 }
 
 .section_about img {
@@ -577,6 +574,7 @@ a:active{
     color: #9b0408;
 }
 
+/* DEZE LIJKEN NIET GEBRUIKT TE WORDEN, TBC & indien zo: deleten */
 @-webkit-keyframes seconds {
     0% {
         opacity: 1;
@@ -595,6 +593,9 @@ a:active{
         /*left: -9999px;*/
     }
 }
+
+/* EINDE CHECK */
+
 
 .contact_form {
     margin: 40px 20px;

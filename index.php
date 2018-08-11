@@ -149,8 +149,8 @@
 
             <div class="work_item content_work_element" id="work_item_2">
                 <div class="work_item_label" id="work_item_label_2">
-                    <h2>Dany's Style</h2>
-                    <p>coming soon: website for hair styling salon</p>
+                    <h2>weg</h2>
+                    <p>weg</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_2">view</div>
 
@@ -161,7 +161,7 @@
             <div class="work_item content_work_element" id="work_item_3">
                 <div class="work_item_label" id="work_item_label_3">
                     <h2>Hangman</h2>
-                    <p>coming soon: hangman game, coded in php</p>
+                    <p>android game made with phonegap</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_3">view</div>
 
@@ -178,8 +178,8 @@
 
             <a href="404.php" target="_blank"  class="work_item content_work_element" id="work_item_5">
                 <div class="work_item_label" id="work_item_label_5">
-                    <h2><em>404</em> Page</h2>
-                    <p>404 page for this website</p>
+                    <h2><em>weg</em> Page</h2>
+                    <p>weg</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_5">view</div>
 

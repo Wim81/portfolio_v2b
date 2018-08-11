@@ -78,7 +78,6 @@ $(document).ready(function() {
 
         /* work link reset */
 
-        console.log("this is happening!!!");   /* probeer op de css de transition te zetten!!! */
         $("#link_work_shape").css({fill: "#084E96", transition: "0.5s"});
         $("#link_work_shape").css({stroke: "#084E96", transition: "0.5s"});
         $("#link_work_shape").css({strokeWidth: "0px", transition: "0.5s"});
@@ -121,7 +120,7 @@ $(document).ready(function() {
 
     /*  overgang naar work section  */
 
-    $("#link_work_shape").click(function() {
+    function showWorkSection() {
         $("#link_work").css({zIndex: "20"});
         $("#link_work_shape").css({fill: "#084E96", transition: "3s"});
         $("#link_work_shape").css({stroke: "#084E96", transition: "3s"});
@@ -135,28 +134,15 @@ $(document).ready(function() {
             $(this).css({top: "100vh", transition: "3s"});
             next();
         });
-    });
+    }
 
-    $(".nav_work").click(function() {
-        $("#link_work").css({zIndex: "20"});
-        $("#link_work_shape").css({fill: "#084E96", transition: "3s"});
-        $("#link_work_shape").css({stroke: "#084E96", transition: "3s"});
-        $("#link_work_shape").css({strokeWidth: "0px", transition: "3s"});
-        $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
-        $(".section_work").delay(1500).queue(function (next) {
-            $(this).css({bottom: "0vh", transition: "3s"});
-            next();
-         });
-        $("#link_work").delay(1500).queue(function (next) {
-            $(this).css({top: "100vh", transition: "3s"});
-            next();
-        });
-    });
+    $("#link_work_shape").click(showWorkSection);
+    $(".nav_work").click(showWorkSection);
 
 
     /*  overgang naar contact section  */
 
-    $("#link_contact_shape").click(function() {
+    function showContactSection() {
         $("#link_contact").css({zIndex: "20"});
         $("#link_contact_shape").css({fill: "#9b0408", transition: "3s"});
         $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
@@ -170,28 +156,15 @@ $(document).ready(function() {
             $(this).css({bottom: "100vh", transition: "3s"});
             next();
         });
-    });
+    }
 
-    $(".nav_contact").click(function() {
-        $("#link_contact").css({zIndex: "20"});
-        $("#link_contact_shape").css({fill: "#9b0408", transition: "3s"});
-        $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
-        $("#link_contact_shape").css({strokeWidth: "0px", transition: "3s"});
-        $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
-        $(".section_contact").delay(1500).queue(function (next) {
-            $(this).css({top: "0vh", transition: "3s"});
-            next();
-        });
-        $("#link_contact").delay(1500).queue(function (next) {
-            $(this).css({bottom: "100vh", transition: "3s"});
-            next();
-        });
-    });
+    $("#link_contact_shape").click(showContactSection);
+    $(".nav_contact").click(showContactSection);
 
 
     /*  overgang naar about section (mobile)  */
 
-    $("#link_about1_shape").click(function() {
+    function showAboutSection1() {
         $("#link_about1").css({zIndex: "20"});
         $(".section_about").css({zIndex: "30"});
         $("#link_about1_shape").css({fill: "#e7e7e7", transition: "3s"});
@@ -210,33 +183,15 @@ $(document).ready(function() {
             $(this).css({borderLeft: "0px solid transparent", transition: "0.5s"});
             next();
         });
-    });
+    }
 
-    $(".nav_about1").click(function() {
-        $("#link_about1").css({zIndex: "20"});
-        $(".section_about").css({zIndex: "30"});
-        $("#link_about1_shape").css({fill: "#e7e7e7", transition: "3s"});
-        $("#link_about1_shape").css({stroke: "#084E96", transition: "3s"});
-        $("#link_about1_shape").css({strokeWidth: "2.6px", transition: "3s"});
-        $("#nav_about1_text").css({fill: "#084E96", transition: "3s"});
-        $(".section_about").delay(1500).queue(function (next) {
-            $(this).css({left: "0vh", transition: "3s"});
-            next();
-        });
-        $("#link_about1").delay(1500).queue(function (next) {
-            $(this).css({right: "100vw", transition: "3s"});
-            next();
-        });
-        $(".section_about").delay(2500).queue(function (next) {
-            $(this).css({borderLeft: "0px solid transparent", transition: "0.5s"});
-            next();
-        });
-    });
+    $("#link_about1_shape").click(showAboutSection1);
+    $(".nav_about1").click(showAboutSection1);
 
 
     /*  overgang naar about section (desktop)  */
 
-    $("#link_about2_shape").click(function() {
+    function showAboutSection2() {
         $("#link_about2").css({zIndex: "20"});
         $(".section_about").css({zIndex: "30"});
         $("#link_about2_shape").css({fill: "#e7e7e7", transition: "3s"});
@@ -255,28 +210,10 @@ $(document).ready(function() {
             $(this).css({borderLeft: "0px solid transparent", transition: "0.5s"});
             next();
         });
-    });
+    }
 
-    $(".nav_about2").click(function() {
-        $("#link_about2").css({zIndex: "20"});
-        $(".section_about").css({zIndex: "30"});
-        $("#link_about2_shape").css({fill: "#e7e7e7", transition: "3s"});
-        $("#link_about2_shape").css({stroke: "#084E96", transition: "3s"});
-        $("#link_about2_shape").css({strokeWidth: "1.2px", transition: "3s"});
-        $("#nav_about2_text").css({fill: "#084E96", transition: "3s"});
-        $(".section_about").delay(1500).queue(function (next) {
-            $(this).css({left: "0vh", transition: "3s"});
-            next();
-        });
-        $("#link_about2").delay(1500).queue(function (next) {
-            $(this).css({right: "100vw", transition: "3s"});
-            next();
-        });
-        $(".section_about").delay(2500).queue(function (next) {
-            $(this).css({borderLeft: "0px solid transparent", transition: "0.5s"});
-            next();
-        });
-    });
+    $("#link_about2_shape").click(showAboutSection2);
+    $(".nav_about2").click(showAboutSection2);
 
 
     /*  overgang van work section terug naar home page  */
@@ -378,13 +315,13 @@ $(document).ready(function() {
     /*  hover effect work item 2  */
 
     $("#work_item_2").hover(function() {
-        $("#work_item_2").css({backgroundImage: "url('images/work/preview_2_danysstyle.jpg')", cursor: "pointer"});
+        $("#work_item_2").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "pointer"});
         $("#work_item_label_2").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
         $("#work_item_link_2").css({opacity: "1"});
         $("#work_item_2 p").hide(1000);
 
     }, function() {
-        $("#work_item_2").css({backgroundImage: "url('images/work/preview_2_danysstyle_bw.jpg')", cursor: "auto"});
+        $("#work_item_2").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
         $("#work_item_label_2").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
         $("#work_item_link_2").css({opacity: "0"});
         $("#work_item_2 p").show(1000);
@@ -423,13 +360,13 @@ $(document).ready(function() {
     /*  hover effect work item 5  */
 
     $("#work_item_5").hover(function() {
-        $("#work_item_5").css({backgroundImage: "url('images/work/preview_5_404.jpg')", cursor: "pointer"});
+        $("#work_item_5").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "pointer"});
         $("#work_item_label_5").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
         $("#work_item_link_5").css({opacity: "1"});
         $("#work_item_5 p").hide(1000);
 
     }, function() {
-        $("#work_item_5").css({backgroundImage: "url('images/work/preview_5_404_bw.jpg')", cursor: "auto"});
+        $("#work_item_5").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
         $("#work_item_label_5").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
         $("#work_item_link_5").css({opacity: "0"});
         $("#work_item_5 p").show(1000);
