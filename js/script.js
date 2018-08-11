@@ -297,80 +297,37 @@ $(document).ready(function() {
     });
 
 
-    /*  hover effect work item 1  */
+    /*  hover effect work items  */
 
-    $("#work_item_1").hover(function() {
-        $("#work_item_1").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef.jpg')", cursor: "pointer"});
-        $("#work_item_label_1").css({height: "45%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
-        $("#work_item_link_1").css({opacity: "1"});
-        $("#work_item_1 p").hide(1000);
+    function workItemHoverEffectIn() {
+        var bg_image = $(this).attr('data-image-col');
+        var label = "#" + $(this).find('.work_item_label').attr('id');
+        var link = "#" + $(this).find('.work_item_link').attr('id');
 
-    }, function() {
-        $("#work_item_1").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')",cursor: "auto"});
-        $("#work_item_label_1").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
-        $("#work_item_link_1").css({opacity: "0"});
-        $("#work_item_1 p").show(1000);
-    });
+        $(this).css({backgroundImage: "url(" + bg_image + ")", cursor: "pointer"});
+        $(label).css({height: "45%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
+        $(link).css({opacity: "1"});
+        $(label).children("p").hide(1000);
+    }
 
-    /*  hover effect work item 2  */
+    function workItemHoverEffectOut() {
+        var bg_image_bw = $(this).attr('data-image-bw');
+        var label = "#" + $(this).find('.work_item_label').attr('id');
+        var link = "#" + $(this).find('.work_item_link').attr('id');
 
-    $("#work_item_2").hover(function() {
-        $("#work_item_2").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "pointer"});
-        $("#work_item_label_2").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
-        $("#work_item_link_2").css({opacity: "1"});
-        $("#work_item_2 p").hide(1000);
+        $(this).css({backgroundImage: "url(" + bg_image_bw + ")",cursor: "auto"});
+        $(label).css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
+        $(link).css({opacity: "0"});
+        $(label).children("p").show(1000);
+    }
 
-    }, function() {
-        $("#work_item_2").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
-        $("#work_item_label_2").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
-        $("#work_item_link_2").css({opacity: "0"});
-        $("#work_item_2 p").show(1000);
-    });
 
-    /*  hover effect work item 3  */
-
-    $("#work_item_3").hover(function() {
-        $("#work_item_3").css({backgroundImage: "url('images/work/preview_3_hangman.jpg')", cursor: "pointer"});
-        $("#work_item_label_3").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
-        $("#work_item_link_3").css({opacity: "1"});
-        $("#work_item_3 p").hide(1000);
-
-    }, function() {
-        $("#work_item_3").css({backgroundImage: "url('images/work/preview_3_hangman_bw.jpg')", cursor: "auto"});
-        $("#work_item_label_3").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
-        $("#work_item_link_3").css({opacity: "0"});
-        $("#work_item_3 p").show(1000);
-    });
-
-    /*  hover effect work item 4  */
-
-    $("#work_item_4").hover(function() {
-        $("#work_item_4").css({backgroundImage: "url('images/work/preview_4_christmasinvaders.jpg')", cursor: "pointer"});
-        $("#work_item_label_4").css({height: "45%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
-        $("#work_item_link_4").css({opacity: "1"});
-        $("#work_item_4 p").hide(1000);
-
-    }, function() {
-        $("#work_item_4").css({backgroundImage: "url('images/work/preview_4_christmasinvaders_bw.jpg')", cursor: "auto"});
-        $("#work_item_label_4").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
-        $("#work_item_link_4").css({opacity: "0"});
-        $("#work_item_4 p").show(1000);
-    });
-
-    /*  hover effect work item 5  */
-
-    $("#work_item_5").hover(function() {
-        $("#work_item_5").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "pointer"});
-        $("#work_item_label_5").css({height: "30%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 58%)", backgroundColor: "rgba(231, 231, 231, 0.7)", color: "#084e96"});
-        $("#work_item_link_5").css({opacity: "1"});
-        $("#work_item_5 p").hide(1000);
-
-    }, function() {
-        $("#work_item_5").css({backgroundImage: "url('images/work/preview_1_bauweraertsjef_bw.jpg')", cursor: "auto"});
-        $("#work_item_label_5").css({height: "100%", clipPath: "polygon(0 0, 100% 0, 100% 58%, 0 42%)", backgroundColor: "rgba(8, 78, 150, 0.7)", color: "#e7e7e7"});
-        $("#work_item_link_5").css({opacity: "0"});
-        $("#work_item_5 p").show(1000);
-    });
+    /* aanroepen van functies voor ieder item */
+    $("#work_item_1").hover(workItemHoverEffectIn, workItemHoverEffectOut);
+    $("#work_item_2").hover(workItemHoverEffectIn, workItemHoverEffectOut);
+    $("#work_item_3").hover(workItemHoverEffectIn, workItemHoverEffectOut);
+    $("#work_item_4").hover(workItemHoverEffectIn, workItemHoverEffectOut);
+    $("#work_item_5").hover(workItemHoverEffectIn, workItemHoverEffectOut);
 
 
     /*  scrollbar about  */

@@ -138,7 +138,7 @@
 
             <div class="work_title work_title_1 content_work_element">Websites</div>
 
-            <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1">
+            <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_1">
                     <h2>Bauweraerts Jef</h2>
                     <p>website for a client who provides septic services</p>
@@ -147,7 +147,7 @@
 
             </a>
 
-            <div class="work_item content_work_element" id="work_item_2">
+            <div class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_2">
                     <h2>weg</h2>
                     <p>weg</p>
@@ -158,7 +158,7 @@
 
             <div class="work_title work_title_2 content_work_element">Fun</div>
 
-            <div class="work_item content_work_element" id="work_item_3">
+            <div class="work_item content_work_element" id="work_item_3" data-image-col='images/work/preview_3_hangman.jpg', data-image-bw='images/work/preview_3_hangman_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_3">
                     <h2>Hangman</h2>
                     <p>android game made with phonegap</p>
@@ -167,7 +167,7 @@
 
             </div>
 
-            <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4">
+            <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_4">
                     <h2>Christmas Invaders</h2>
                     <p>wallpaper for smashing magazine competition</p>
@@ -176,7 +176,7 @@
 
             </a>
 
-            <a href="404.php" target="_blank"  class="work_item content_work_element" id="work_item_5">
+            <a href="404.php" target="_blank"  class="work_item content_work_element" id="work_item_5" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_5">
                     <h2><em>weg</em> Page</h2>
                     <p>weg</p>
