@@ -321,14 +321,7 @@ $(document).ready(function() {
         $(label).children("p").show(1000);
     }
 
-
-    /* aanroepen van functies voor ieder item */
-    $("#work_item_1").hover(workItemHoverEffectIn, workItemHoverEffectOut);
-    $("#work_item_2").hover(workItemHoverEffectIn, workItemHoverEffectOut);
-    $("#work_item_3").hover(workItemHoverEffectIn, workItemHoverEffectOut);
-    $("#work_item_4").hover(workItemHoverEffectIn, workItemHoverEffectOut);
-    $("#work_item_5").hover(workItemHoverEffectIn, workItemHoverEffectOut);
-
+    $(".work_item").hover(workItemHoverEffectIn, workItemHoverEffectOut);
 
     /*  scrollbar about  */
 
