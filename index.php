@@ -144,7 +144,6 @@
                     <p>website for a client who provides septic services</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_1">view</div>
-
             </a>
 
             <div class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
@@ -153,19 +152,17 @@
                     <p>weg</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_2">view</div>
-
             </div>
 
             <div class="work_title work_title_2 content_work_element">Fun</div>
 
-            <div class="work_item content_work_element" id="work_item_3" data-image-col='images/work/preview_3_hangman.jpg', data-image-bw='images/work/preview_3_hangman_bw.jpg'>
+            <a href="http://www.wimverpoorten.com/hangman/" target="_blank" class="work_item content_work_element" id="work_item_3" data-image-col='images/work/preview_3_hangman.jpg', data-image-bw='images/work/preview_3_hangman_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_3">
                     <h2>Hangman</h2>
                     <p>android game made with phonegap</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_3">view</div>
-
-            </div>
+            </a>
 
             <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
                 <div class="work_item_label" id="work_item_label_4">
@@ -173,7 +170,6 @@
                     <p>wallpaper for smashing magazine competition</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_4">view</div>
-
             </a>
 
             <a href="404.php" target="_blank"  class="work_item content_work_element" id="work_item_5" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
@@ -182,7 +178,6 @@
                     <p>weg</p>
                 </div>
                 <div class="work_item_link" id="work_item_link_5">view</div>
-
             </a>
 
         </div>
