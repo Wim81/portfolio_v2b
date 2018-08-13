@@ -343,30 +343,43 @@ $(document).ready(function() {
     /*  overgang van about section terug naar home page  */
 
     $(".exit_about").click(function() {
-        $(".section_about").delay(0).queue(function (next) {
-            $(this).css({left: "100vw", transition: "3s"});
+
+        $(".section_about_inner").delay(0).queue(function (next) {
+            $(this).css({opacity: "0", transition: "1s"});
+            next();
+        });
+
+        $(".section_about").delay(1000).queue(function (next) {
+            $(this).css({display: "none"});
+            next();
+        });
+
+        $(".about_background").delay(1000).queue(function (next) {
+            $(this).css({width: "0vw", transition: "3s"});
+            next();
+        });
+
+        $(".section_about").delay(1000).queue(function (next) {
+            $(this).css({borderLeft: "2px solid #084E96", transition: "0.5s"});
             next();
         });
 
         if($(window).width() < 640) {
-            $("#link_about1").delay(1000).queue(function (next) {
+            $("#link_about1").delay(2000).queue(function (next) {
                 $(this).css("z-index", "0");
                 next();
             });
         } else {
-            $("#link_about2").delay(0).queue(function (next) {
+            $("#link_about2").delay(1000).queue(function (next) {
                 $(this).css({right: "-3px", transition: "3s"});
                 next();
             });
-            $("#link_about2").delay(1000).queue(function (next) {
+            $("#link_about2").delay(2000).queue(function (next) {
                 $(this).css("z-index", "0");
                 next();
             });
         }
-        $(".section_about").delay(100).queue(function (next) {
-            $(this).css({borderLeft: "2px solid #084E96", transition: "0.5s"});
-            next();
-        });
+
     });
 
 
