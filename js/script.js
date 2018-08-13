@@ -269,11 +269,23 @@ $(document).ready(function() {
 
     $(".exit_work").click(function() {
         $("#whiteline_work").show();
-        $(".section_work").delay(0).queue(function (next) {
-            $(this).css({bottom: "100vh", transition: "3s"});
+
+        $(".section_work_inner").delay(0).queue(function (next) {
+            $(this).css({opacity: "0", transition: "1s"});
             next();
         });
-        $("#link_work").delay(0).queue(function (next) {
+
+        $(".section_work").delay(1000).queue(function (next) {
+            $(this).css({display: "none"});
+            next();
+        });
+
+        $(".work_background").delay(1000).queue(function (next) {
+            $(this).css({height: "0vh", transition: "3s"});
+            next();
+        });
+
+        $("#link_work").delay(1000).queue(function (next) {
             if($(window).width() < 640) {
                 $(this).css({top: "-3px", transition: "3s"});
             } else {
@@ -282,7 +294,7 @@ $(document).ready(function() {
             next();
         });
 
-        $("#link_work").delay(1000).queue(function (next) {
+        $("#link_work").delay(2000).queue(function (next) {
             $(this).css("z-index", "0");
             next();
         });
