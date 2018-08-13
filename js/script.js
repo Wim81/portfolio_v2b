@@ -305,11 +305,23 @@ $(document).ready(function() {
 
     $(".exit_contact").click(function() {
         $("#whiteline_contact").show();
-        $(".section_contact").delay(0).queue(function (next) {
-            $(this).css({top: "100vh", transition: "3s"});
+
+        $(".section_contact_inner").delay(0).queue(function (next) {
+            $(this).css({opacity: "0", transition: "1s"});
             next();
         });
-        $("#link_contact").delay(0).queue(function (next) {
+
+        $(".section_contact").delay(1000).queue(function (next) {
+            $(this).css({display: "none"});
+            next();
+        });
+
+        $(".contact_background").delay(1000).queue(function (next) {
+            $(this).css({height: "0vh", transition: "3s"});
+            next();
+        });
+
+        $("#link_contact").delay(1000).queue(function (next) {
             if($(window).width() < 640) {
                 $(this).css({bottom: "-3px", transition: "3s"});
             } else {
