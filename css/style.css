@@ -170,8 +170,13 @@ body {
 
 #link_contact {
     width: 210px;
-    position: absolute;
-    bottom: -3px;
+    /*  aha! */
+    /* position: absolute;
+    bottom: -3px; */
+    /* let's replace */
+    position: relative;
+    bottom: 65px;
+    /* end */
     left: calc((100vw - 210px)/2);
     display: block;
 }
@@ -269,7 +274,11 @@ body {
 
 #whiteline_contact {
     width: 185.5px;
-    bottom: 20px;
+    /* dit moet anders */
+    /*bottom: 20px;*/
+    position: relative;
+    bottom: 93px;
+    /* end */
     left: calc(((100vw - 186px)/2) - 1px);
     display: block;
 }
@@ -788,7 +797,8 @@ em {
 
     #link_contact {
         width: 420px;
-        bottom: -40px;
+        /*bottom: -40px;*/
+        bottom: 145px;
         left: calc((100vw - 420px)/2);
     }
 
@@ -819,6 +829,7 @@ em {
     #whiteline_contact {
         width: 373px;
         left: calc(((100vw - 373px)/2) + 1px);
+        bottom: 204px;
     }
 
     .main_text {

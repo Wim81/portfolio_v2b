@@ -167,7 +167,11 @@ $(document).ready(function() {
         });
 
         $("#link_contact").delay(1500).queue(function (next) {
-            $(this).css({bottom: "100vh", transition: "3s"});
+            if($(window).width() < 640) {
+                $(this).css({bottom: "calc(100vh + 65px)", transition: "3s"});
+            } else {
+                $(this).css({bottom: "calc(100vh + 145px)", transition: "3s"});
+            }
             next();
         });
 
@@ -323,9 +327,9 @@ $(document).ready(function() {
 
         $("#link_contact").delay(1000).queue(function (next) {
             if($(window).width() < 640) {
-                $(this).css({bottom: "-3px", transition: "3s"});
+                $(this).css({bottom: "65px", transition: "3s"});
             } else {
-                $(this).css({bottom: "-40px", transition: "3s"});
+                $(this).css({bottom: "145px", transition: "3s"});
             }
             next();
         });
