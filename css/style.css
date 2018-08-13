@@ -711,6 +711,19 @@ em {
 }
 
 
+/* tests voor 3 divs */
+
+.work_test {
+    background-color: #084e96;
+    width: 100vw;
+    height: 0vh;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {
 
@@ -744,7 +757,7 @@ em {
 }
 
 /*  media query vanaf 640 pixels  */
-@media (min-width: 640px) and (min-height: 780px) {
+@media (min-width: 640px) and (min-height: 640px) {
     .main_area {
         background-size: initial;
         background-position: -360px calc(100% + 70px), calc(100% + 370px) calc(100% + 70px);
