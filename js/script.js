@@ -126,10 +126,16 @@ $(document).ready(function() {
         $("#link_work_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_work_shape").css({strokeWidth: "0px", transition: "3s"});
         $("#nav_work_text").css({fill: "#e7e7e7", transition: "3s"});
+        /*
         $(".section_work").delay(1500).queue(function (next) {
             $(this).css({bottom: "0vh", transition: "3s"});
             next();
+        });*/
+        $(".work_test").delay(1500).queue(function (next) {
+            $(this).css({height: "100vh", transition: "3s"});
+            next();
         });
+
         $("#link_work").delay(1500).queue(function (next) {
             $(this).css({top: "100vh", transition: "3s"});
             next();
@@ -148,8 +154,13 @@ $(document).ready(function() {
         $("#link_contact_shape").css({stroke: "#9b0408", transition: "3s"});
         $("#link_contact_shape").css({strokeWidth: "0px", transition: "3s"});
         $("#nav_contact_text").css({fill: "#e7e7e7", transition: "3s"});
+        /*
         $(".section_contact").delay(1500).queue(function (next) {
             $(this).css({top: "0vh", transition: "3s"});
+            next();
+        });*/
+        $(".contact_test").delay(1500).queue(function (next) {
+            $(this).css({height: "100vh", transition: "3s"});
             next();
         });
         $("#link_contact").delay(1500).queue(function (next) {
@@ -171,8 +182,13 @@ $(document).ready(function() {
         $("#link_about1_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_about1_shape").css({strokeWidth: "2.6px", transition: "3s"});
         $("#nav_about1_text").css({fill: "#084E96", transition: "3s"});
+        /*
         $(".section_about").delay(1500).queue(function (next) {
             $(this).css({left: "0vh", transition: "3s"});
+            next();
+        });*/
+        $(".about_test").delay(1500).queue(function (next) {
+            $(this).css({width: "100vw", transition: "3s"});
             next();
         });
         $("#link_about1").delay(1500).queue(function (next) {
@@ -198,8 +214,13 @@ $(document).ready(function() {
         $("#link_about2_shape").css({stroke: "#084E96", transition: "3s"});
         $("#link_about2_shape").css({strokeWidth: "1.2px", transition: "3s"});
         $("#nav_about2_text").css({fill: "#084E96", transition: "3s"});
+        /*
         $(".section_about").delay(1500).queue(function (next) {
             $(this).css({left: "0vh", transition: "3s"});
+            next();
+        });*/
+        $(".about_test").delay(1500).queue(function (next) {
+            $(this).css({width: "100vw", transition: "3s"});
             next();
         });
         $("#link_about2").delay(1500).queue(function (next) {

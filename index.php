@@ -124,6 +124,8 @@
 </nav>
 
 <div class="work_test"> </div>
+<div class="contact_test"></div>
+<div class="about_test"></div>
 
 <div class="sectiondiv section_work" id="section_work">
     <div class="sectiondiv_inner section_work_inner">
