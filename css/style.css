@@ -413,8 +413,12 @@ a:active{
 .sectiondiv {
     height: 100vh;
     width: 100vw;
-    z-index: 10;
-    position: absolute;
+    z-index: 2000;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
 }
 
 .sectiondiv_inner {
@@ -426,29 +430,20 @@ a:active{
     height: calc(100vh - 40px);
     background-color: transparent;
     border: 3px solid #e7e7e7;
+    opacity: 0;
 }
 
 .section_work {
-    background-color: #084E96;
     color: #e7e7e7;
-    bottom: 100vh;
-    z-index: 30;
 }
 
 .section_contact {
-    background-color: #9b0408;
     color: #e7e7e7;
-    top: 100vh;
-    z-index: 30;
 }
 
 .section_about {
     box-sizing: border-box;
-    background-color: #e7e7e7;
     color: #084E96;
-    top: 0vh;
-    z-index: 30;
-    left: 100vw;
     border-left: 2px solid #084E96;
 }
 
@@ -574,29 +569,6 @@ a:active{
     color: #9b0408;
 }
 
-/* DEZE LIJKEN NIET GEBRUIKT TE WORDEN, TBC & indien zo: deleten */
-@-webkit-keyframes seconds {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        /*left: -9999px;*/
-    }
-}
-@keyframes seconds {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        /*left: -9999px;*/
-    }
-}
-
-/* EINDE CHECK */
-
-
 .contact_form {
     margin: 40px 20px;
     max-width: 440px;
@@ -711,37 +683,58 @@ em {
 }
 
 
-/* tests voor 3 divs */
+/* backgrounds voor 3 divs */
 
-.work_test {
+.div_background {
+    position: fixed;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.work_background {
     background-color: #084e96;
     width: 100vw;
     height: 0vh;
-    z-index: 1000;
-    position: fixed;
     top: 0;
 }
 
-.contact_test {
+.contact_background {
     background-color: #9b0408;
     width: 100vw;
     height: 0vh;
-    z-index: 1000;
-    position: fixed;
     bottom: 0;
 }
 
-.about_test {
+.about_background {
     background-color: #e7e7e7;
     border-left: 2px solid #084E96;
     width: 0vw;
     height: 100vh;
-    z-index: 1000;
-    position: fixed;
     top: 0;
     right: 0;
 }
 
+.div_bg_inner {
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: transparent;
+}
+
+.work_bg_inner {
+    border: 3px solid #e7e7e7;
+}
+
+.contact_bg_inner {
+    border: 3px solid #e7e7e7;
+}
+
+.about_bg_inner {
+    border: 3px solid #084e96;
+}
 
 /*  media query vanaf 380 pixels  */
 @media (min-width: 380px) {

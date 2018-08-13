@@ -123,11 +123,19 @@
 
 </nav>
 
-<div class="work_test"> </div>
-<div class="contact_test"></div>
-<div class="about_test"></div>
+<!--  backgrounds for separate divs (for animation purposes)  -->
+<div class="div_background work_background">
+    <div class="div_bg_inner work_bg_inner"></div>
+</div>
+<div class="div_background contact_background">
+    <div class="div_bg_inner contact_bg_inner"></div>
+</div>
+<div class="div_background about_background">
+    <div class="div_bg_inner about_bg_inner"></div>
+</div>
+<!--  end of backgrounds -->
 
-<div class="sectiondiv section_work" id="section_work">
+<div class="sectiondiv section_work">
     <div class="sectiondiv_inner section_work_inner">
 
         <img src="images/logo_white1.png" class="logo">
