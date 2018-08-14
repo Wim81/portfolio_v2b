@@ -42,8 +42,6 @@
 
 <body>
 
-
-
 <div class="main_area">
 
     <div class="bg_animation"></div>
@@ -204,7 +202,7 @@
                     <div class="work_title work_title_3 content_work_element">Fun</div>
                 </div>
 
-                <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
+                <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
                     <div class="work_item_label" id="work_item_label_4">
                         <h2>Christmas Invaders</h2>
                         <p>wallpaper for smashing magazine competition</p>
