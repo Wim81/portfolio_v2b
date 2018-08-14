@@ -239,6 +239,7 @@ $(document).ready(function() {
         $("#nav_about2_text").css({fill: "#084E96", transition: "3s"});
 
         $(".about_background").delay(1500).queue(function (next) {
+            $(this).css({borderLeft: "2px solid #084e96", transition: "0s"});
             $(this).css({width: "100vw", transition: "3s"});
             next();
         });
@@ -362,12 +363,7 @@ $(document).ready(function() {
             $(this).css({width: "0vw", transition: "3s"});
             next();
         });
-
-        $(".section_about").delay(1000).queue(function (next) {
-            $(this).css({borderLeft: "2px solid #084E96", transition: "0.5s"});
-            next();
-        });
-
+        
         if($(window).width() < 640) {
             $("#link_about1").delay(2000).queue(function (next) {
                 $(this).css("z-index", "0");
@@ -383,6 +379,11 @@ $(document).ready(function() {
                 next();
             });
         }
+
+        $(".about_background").delay(2000).queue(function (next) {
+            $(this).css({borderLeft: "0px solid #084E96", transition: "0.5s"});
+            next();
+        });
 
     });
 
