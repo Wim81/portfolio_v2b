@@ -147,63 +147,85 @@
 
         <div class="content_work">
 
-            <div class="work_title work_title_1 content_work_element">Websites</div>
+            <!--  WEBSITES  -->
+            <div class="content_work_group">
 
-            <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_1">
-                    <h2>Bauweraerts Jef</h2>
-                    <p>website for a client who provides septic services</p>
+                <div class="work_title_wrapper">
+                    <div class="work_title work_title_1 content_work_element">Websites</div>
                 </div>
-                <div class="work_item_link" id="work_item_link_1">view</div>
-            </a>
 
-            <a href=# class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_0_placeholder.jpg', data-image-bw='images/work/preview_0_placeholder_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_2">
-                    <h2>Webpage X</h2>
-                    <p>project still developing</p>
+                <a href="http://www.bauweraertsjef.be" target="_blank" class="work_item content_work_element" id="work_item_1" data-image-col='images/work/preview_1_bauweraertsjef.jpg', data-image-bw='images/work/preview_1_bauweraertsjef_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_1">
+                        <h2>Bauweraerts Jef</h2>
+                        <p>website for a client who provides septic services</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_1">view</div>
+                </a>
+
+                <a href=# class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_0_placeholder.jpg', data-image-bw='images/work/preview_0_placeholder_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_2">
+                        <h2>Webpage X</h2>
+                        <p>project still developing</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_2">view</div>
+                </a>
+
+            </div>
+
+            <!--  APPS  -->
+            <div class="content_work_group">
+
+                <div class="work_title_wrapper">
+                    <div class="work_title work_title_2 content_work_element">Apps</div>
                 </div>
-                <div class="work_item_link" id="work_item_link_2">view</div>
-            </a>
 
-            <div class="work_title work_title_2 content_work_element">Apps</div>
+                <a href="http://www.wimverpoorten.com/hangman/" target="_blank" class="work_item content_work_element" id="work_item_3" data-image-col='images/work/preview_3_hangman.jpg', data-image-bw='images/work/preview_3_hangman_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_3">
+                        <h2>Hangman</h2>
+                        <p>android game made with phonegap</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_3">view</div>
+                </a>
 
-            <a href="http://www.wimverpoorten.com/hangman/" target="_blank" class="work_item content_work_element" id="work_item_3" data-image-col='images/work/preview_3_hangman.jpg', data-image-bw='images/work/preview_3_hangman_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_3">
-                    <h2>Hangman</h2>
-                    <p>android game made with phonegap</p>
+                <a href=# class="work_item content_work_element" id="work_item_6" data-image-col='images/work/preview_0_placeholder.jpg', data-image-bw='images/work/preview_0_placeholder_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_6">
+                        <h2>ReMind App</h2>
+                        <p>coming soon: native android app for notes & reminders</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_6">view</div>
+                </a>
+
+            </div>
+
+            <!--  FUN  -->
+            <div class="content_work_group">
+
+                <div class="work_title_wrapper">
+                    <div class="work_title work_title_3 content_work_element">Fun</div>
                 </div>
-                <div class="work_item_link" id="work_item_link_3">view</div>
-            </a>
 
-            <a href=# class="work_item content_work_element" id="work_item_6" data-image-col='images/work/preview_0_placeholder.jpg', data-image-bw='images/work/preview_0_placeholder_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_6">
-                    <h2>ReMind App</h2>
-                    <p>coming soon: native android app for notes & reminders</p>
-                </div>
-                <div class="work_item_link" id="work_item_link_6">view</div>
-            </a>
+                <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_4">
+                        <h2>Christmas Invaders</h2>
+                        <p>wallpaper for smashing magazine competition</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_4">view</div>
+                </a>
 
-            <div class="work_title work_title_3 content_work_element">Fun</div>
+                <a href="http://www.wimverpoorten.com/googledoodle/" target="_blank" class="work_item content_work_element" id="work_item_5" data-image-col='images/work/preview_5_googledoodle.jpg', data-image-bw='images/work/preview_5_googledoodle_bw.jpg'>
+                    <div class="work_item_label" id="work_item_label_5">
+                        <h2>Google Doodle</h2>
+                        <p>google doodle celebrating the woodstock festival</p>
+                    </div>
+                    <div class="work_item_link" id="work_item_link_5">view</div>
+                </a>
 
-            <a href="https://www.smashingmagazine.com/2016/11/christmas-wallpaper-calendars-2016/#christmas-invaders-12-2015" target="_blank" class="work_item content_work_element" id="work_item_4" data-image-col='images/work/preview_4_christmasinvaders.jpg', data-image-bw='images/work/preview_4_christmasinvaders_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_4">
-                    <h2>Christmas Invaders</h2>
-                    <p>wallpaper for smashing magazine competition</p>
-                </div>
-                <div class="work_item_link" id="work_item_link_4">view</div>
-            </a>
-
-            <a href="http://www.wimverpoorten.com/googledoodle/" target="_blank" class="work_item content_work_element" id="work_item_5" data-image-col='images/work/preview_5_googledoodle.jpg', data-image-bw='images/work/preview_5_googledoodle_bw.jpg'>
-                <div class="work_item_label" id="work_item_label_5">
-                    <h2>Google Doodle</h2>
-                    <p>google doodle celebrating the woodstock festival</p>
-                </div>
-                <div class="work_item_link" id="work_item_link_5">view</div>
-            </a>
+            </div>
 
         </div>
 
     </div>
+
 </div>
 
 <div class="sectiondiv section_contact">
