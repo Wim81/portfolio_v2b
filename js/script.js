@@ -491,17 +491,24 @@ $(document).ready(function() {
 
 });
 
-/* fix custom scrollbars on resize */
+/* re-position custom scrollbars on resize */
 
 var timer;
-function workNiceScrollOnResize() {
-    console.log("this is happening!");
+function niceScrollOnResize() {
     $(".content_work").css('overflow-x','scroll');
     $(".content_work").getNiceScroll().resize();
     $(".content_work").css('overflow-x','hidden');
+
+    $(".contact_form").css('overflow-x','scroll');
+    $(".contact_form").getNiceScroll().resize();
+    $(".contact_form").css('overflow-x','hidden');
+
+    $(".content_about").css('overflow-x','scroll');
+    $(".content_about").getNiceScroll().resize();
+    $(".content_about").css('overflow-x','hidden');
 }
 
 $( window ).resize(function() {
     clearTimeout(timer);
-    timer = setTimeout(workNiceScrollOnResize, 1000);
+    timer = setTimeout(niceScrollOnResize, 1000);
 });
