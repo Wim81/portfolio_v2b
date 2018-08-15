@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50047f67-f003-4b01-9bc4-9da09c7c3121" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="696" column="25" lean-forward="false" selection-start-line="696" selection-start-column="25" selection-end-line="696" selection-end-column="25" />
+            <state relative-caret-position="215">
+              <caret line="691" column="21" lean-forward="false" selection-start-line="691" selection-start-column="21" selection-end-line="691" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -293,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237769000" />
+    <option name="totallyTimeSpent" value="238122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1744" height="1066" extended-state="6" />
@@ -658,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="696" column="25" lean-forward="false" selection-start-line="696" selection-start-column="25" selection-end-line="696" selection-end-column="25" />
+        <state relative-caret-position="215">
+          <caret line="691" column="21" lean-forward="false" selection-start-line="691" selection-start-column="21" selection-end-line="691" selection-end-column="21" />
           <folding />
         </state>
       </provider>
