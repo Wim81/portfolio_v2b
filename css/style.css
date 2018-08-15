@@ -654,6 +654,7 @@ a:active{
     -ms-flex-align: center;
     align-items: center;
     margin: 20px 10px;
+    padding: 10px;
     background: rgba(231, 231, 231, 0.7);
     height: calc(100vh - 224px);
     overflow-x: hidden;
@@ -947,7 +948,7 @@ li {
     }
 
     .content_about_wrapper {
-        height: calc(100vh - 224px);
+        /*height: calc(100vh - 224px);*/
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -967,8 +968,8 @@ li {
         align-items: flex-start;
         max-width: none;
         margin: 40px;
+        height: calc(100vh - 244px);
         overflow-y: auto;
-        height: auto;
     }
 
     #about_text_1, #about_text_2 {
@@ -977,6 +978,7 @@ li {
         -webkit-box-flex: 3;
         -ms-flex: 3 1 0;
         flex: 3 1 0;
+        padding-top: 0;
     }
 
     #about_text_1 {
