@@ -1102,7 +1102,14 @@ li {
     }
 }
 
-@media (max-height: 340px) {
+@media (max-height: 350px) {
+
+    .main_text {
+        transform: translateY(-50px);
+    }
+}
+
+@media (max-height: 320px) {
 
     .main_text {
         transform: translateY(-60px);
