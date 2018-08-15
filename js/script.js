@@ -414,57 +414,6 @@ $(document).ready(function() {
 
     $(".work_item").hover(workItemHoverEffectIn, workItemHoverEffectOut);
 
-    /*  scrollbar about  */
-
-    $(".content_about").niceScroll({
-        cursorcolor:"#084E96",
-        cursorwidth:"8px",
-        cursorborder: "0px solid #084E96",
-        cursorborderradius: "0px",
-        cursorfixedheight: 100,
-        autohidemode: "leave",
-        cursoropacitymin: 0.2,
-        cursoropacitymax: 0.7,
-        background: "transparent",
-        enablemousewheel: true,
-        enablekeyboard: true,
-        smoothscroll: true,
-    });
-
-    /*  scrollbar contact  */
-
-    $(".contact_form").niceScroll({
-        cursorcolor:"#e7e7e7",
-        cursorwidth:"8px",
-        cursorborder: "0px solid #e7e7e7",
-        cursorborderradius: "0px",
-        cursorfixedheight: 100,
-        autohidemode: "leave",
-        cursoropacitymin: 0.2,
-        cursoropacitymax: 0.7,
-        background: "transparent",
-        enablemousewheel: true,
-        enablekeyboard: true,
-        smoothscroll: true,
-    });
-
-    /*  scrollbar work  */
-
-    $(".content_work").niceScroll({
-        cursorcolor:"#e7e7e7",
-        cursorwidth:"8px",
-        cursorborder: "0px solid #e7e7e7",
-        cursorborderradius: "0px",
-        cursorfixedheight: 100,
-        autohidemode: "leave",
-        cursoropacitymin: 0.2,
-        cursoropacitymax: 0.7,
-        background: "transparent",
-        enablemousewheel: true,
-        enablekeyboard: true,
-        smoothscroll: true,
-    });
-
 
     /*  submit form using the send button  */
 
@@ -491,6 +440,68 @@ $(document).ready(function() {
 
 });
 
+
+/*  scrollbars  */
+
+var timer2;
+
+function initiateNiceScroll() {
+    $(".content_about").niceScroll({
+        cursorcolor:"#084E96",
+        cursorwidth:"8px",
+        cursorborder: "0px solid #084E96",
+        cursorborderradius: "0px",
+        cursorfixedheight: 100,
+        autohidemode: "leave",
+        cursoropacitymin: 0.2,
+        cursoropacitymax: 0.7,
+        background: "transparent",
+        enablemousewheel: true,
+        enablekeyboard: true,
+        smoothscroll: true,
+    });
+
+    $(".contact_form").niceScroll({
+        cursorcolor:"#e7e7e7",
+        cursorwidth:"8px",
+        cursorborder: "0px solid #e7e7e7",
+        cursorborderradius: "0px",
+        cursorfixedheight: 100,
+        autohidemode: "leave",
+        cursoropacitymin: 0.2,
+        cursoropacitymax: 0.7,
+        background: "transparent",
+        enablemousewheel: true,
+        enablekeyboard: true,
+        smoothscroll: true,
+    });
+
+    $(".content_work").niceScroll({
+        cursorcolor:"#e7e7e7",
+        cursorwidth:"8px",
+        cursorborder: "0px solid #e7e7e7",
+        cursorborderradius: "0px",
+        cursorfixedheight: 100,
+        autohidemode: "leave",
+        cursoropacitymin: 0.2,
+        cursoropacitymax: 0.7,
+        background: "transparent",
+        enablemousewheel: true,
+        enablekeyboard: true,
+        smoothscroll: true,
+    });
+    console.log("...dude!");
+}
+
+$(document).ready(function() {
+    console.log("do this...");
+    clearTimeout(timer2);
+    timer2 = setTimeout(initiateNiceScroll, 1000);
+    clearTimeout(timer);
+    timer = setTimeout(niceScrollOnResize, 2000);
+});
+
+
 /* re-position custom scrollbars on resize */
 
 var timer;
@@ -506,9 +517,22 @@ function niceScrollOnResize() {
     $(".content_about").css('overflow-x','scroll');
     $(".content_about").getNiceScroll().resize();
     $(".content_about").css('overflow-x','hidden');
+    console.log("last messssssage");
 }
 
 $( window ).resize(function() {
     clearTimeout(timer);
     timer = setTimeout(niceScrollOnResize, 1000);
+});
+
+/*
+$(".content_work").scroll(function(){
+    console.log("yea boi!!");
+    $(".content_work").getNiceScroll().resize();
+});*/
+
+$(".content_work").on('touchstart', function() {
+    $(this).css('overflow-x','scroll');
+    $(this).getNiceScroll().resize();
+    $(this).css('overflow-x','hidden');
 });
