@@ -541,7 +541,8 @@ a:active{
 }
 
 .content_contact {
-    margin: 20px;
+    margin: 0px;
+    padding: 0px 10px;
 }
 
 #form-messages {
@@ -570,7 +571,7 @@ a:active{
 }
 
 .contact_form {
-    margin: 40px 20px;
+    margin: 40px 10px;
     max-width: 440px;
     height: calc(100vh - 224px);
     overflow-x: scroll;
@@ -817,6 +818,10 @@ li {
     .work_title {
         width: 400px;
     }
+
+    .contact_form {
+        margin: 40px auto;
+    }
 }
 
 /*  media query vanaf 640 pixels  */
@@ -1034,7 +1039,6 @@ li {
         height: 100%;
         padding-top: 20px;
     }
-
 }
 
 
@@ -1086,12 +1090,60 @@ li {
 }
 
 
-/*  media query tot 700 pixels HOOGTE  */
-@media (max-height: 700px) {
+/*  HOOGTE media queries om contact form netjes te houden */
+@media (min-width: 1000px) and (max-height: 700px) {
+
     .contact_form {
-        height: calc(100vh - 350px);
+        height: 240px;
+        margin-bottom: 0;
+    }
+
+    #contact_intro {
+        padding-bottom: 0;
+    }
+
+    #name, #email {
+        height: 2em;
     }
 }
+
+@media (min-width: 1000px) and (max-height: 540px) {
+
+    .contact_form {
+        height: 120px;
+    }
+
+    #contact_intro {
+       display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-height: 400px) {
+
+    .contact_form {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 1000px) and (max-height: 650px) {
+
+    #contact_intro {
+        font-size: 1em;
+        line-height: 1.2em;
+        padding-bottom: 10px;
+    }
+
+    .contact_form {
+       max-height: calc(100vh - 240px);
+       margin-top: 10px;
+    }
+
+    #message {
+        height: 4em;
+    }
+}
+
+
 
 /*  HOOGTE media queries om main text zichtbaar te houden  */
 @media (max-height: 400px) {
