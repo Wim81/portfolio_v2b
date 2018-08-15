@@ -682,6 +682,26 @@ em {
     font-size: 0.9em;
 }
 
+/* about external links */
+.about_external_links {
+    height: 2em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fab {
+    color: #084e96;
+    font-size: 2em;
+    transition: all 0.5s;
+}
+
+.fab:hover {
+    color: #9b0408;
+    transition: all 0.5s;
+}
+
 
 /* backgrounds voor 3 divs */
 

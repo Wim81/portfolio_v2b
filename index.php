@@ -34,8 +34,9 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
-    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
     <!--  offline backup jQuery
     <script src="js/jquery-2.1.4.min.js"></script>  -->
 </head>
@@ -301,9 +302,20 @@
                         <p>I mainly like all things front-end: HTML, CSS/Sass, JS/Jquery. From a back-end point of view, I like working with PHP. Designing is fun as well. Even though I am not a trained illustrator, I know my way around Photoshop and Illustrator and I am always keen to learn new things.</p>
                     <br>
                     <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
+
+                    <div class="about_external_links">
+                        <a href="https://github.com/Wim81" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://medium.com/@wimverpoorten" target="_blank">
+                            <i class="fab fa-medium"></i>
+                        </a>
+                        <a href="" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
                 </div>
-
-
 
             </div>  <!--  einde about inner section  -->
         </div>  <!--  einde van de wrapper  -->
