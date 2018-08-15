@@ -781,7 +781,7 @@ li {
 }
 
 /*  media query vanaf 380 pixels  */
-@media (min-width: 380px) {
+@media (min-width: 380px) and (min-height: 500px) {
 
     .main_text {
         font-size: 3.8em;
@@ -1090,5 +1090,21 @@ li {
 @media (max-height: 700px) {
     .contact_form {
         height: calc(100vh - 350px);
+    }
+}
+
+/*  HOOGTE media queries om main text zichtbaar te houden  */
+@media (max-height: 400px) {
+
+    .main_text {
+        font-size: 1.6em;
+        transform: translateY(-40px);
+    }
+}
+
+@media (max-height: 340px) {
+
+    .main_text {
+        transform: translateY(-60px);
     }
 }
