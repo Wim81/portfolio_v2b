@@ -435,7 +435,6 @@ $(document).ready(function() {
         return age;
     }
 
-
     $("#my_age").html(getAge("October 15, 1981 01:00:00"));
 
 });
@@ -490,11 +489,9 @@ function initiateNiceScroll() {
         enablekeyboard: true,
         smoothscroll: true,
     });
-    console.log("...dude!");
 }
 
 $(document).ready(function() {
-    console.log("do this...");
     clearTimeout(timer2);
     timer2 = setTimeout(initiateNiceScroll, 1000);
     clearTimeout(timer);
@@ -517,13 +514,14 @@ function niceScrollOnResize() {
     $(".content_about").css('overflow-x','scroll');
     $(".content_about").getNiceScroll().resize();
     $(".content_about").css('overflow-x','hidden');
-    console.log("last messssssage");
 }
 
 $( window ).resize(function() {
     clearTimeout(timer);
     timer = setTimeout(niceScrollOnResize, 1000);
 });
+
+/*  fix mobile scrollbar issue  */
 
 $(".content_work").on('touchstart', function() {
     $(this).css('overflow-x','scroll');
