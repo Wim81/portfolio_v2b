@@ -166,7 +166,7 @@ $(document).ready(function() {
         });
 
         $("#link_contact").delay(1500).queue(function (next) {
-            if($(window).width() < 640) {
+            if($(window).width() < 640 || $(window).height() < 640)  {
                 $(this).css({bottom: "calc(100vh + 65px)", transition: "3s"});
             } else {
                 $(this).css({bottom: "calc(100vh + 145px)", transition: "3s"});
@@ -290,7 +290,7 @@ $(document).ready(function() {
         });
 
         $("#link_work").delay(1000).queue(function (next) {
-            if($(window).width() < 640) {
+            if($(window).width() < 640 || $(window).height() < 640) {
                 $(this).css({top: "-3px", transition: "3s"});
             } else {
                 $(this).css({top: "-40px", transition: "3s"});
@@ -326,7 +326,7 @@ $(document).ready(function() {
         });
 
         $("#link_contact").delay(1000).queue(function (next) {
-            if($(window).width() < 640) {
+            if($(window).width() < 640 || $(window).height() < 640) {
                 $(this).css({bottom: "65px", transition: "3s"});
             } else {
                 $(this).css({bottom: "145px", transition: "3s"});
