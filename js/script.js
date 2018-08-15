@@ -490,3 +490,18 @@ $(document).ready(function() {
     $("#my_age").html(getAge("October 15, 1981 01:00:00"));
 
 });
+
+/* fix custom scrollbars on resize */
+
+var timer;
+function workNiceScrollOnResize() {
+    console.log("this is happening!");
+    $(".content_work").css('overflow-x','scroll');
+    $(".content_work").getNiceScroll().resize();
+    $(".content_work").css('overflow-x','hidden');
+}
+
+$( window ).resize(function() {
+    clearTimeout(timer);
+    timer = setTimeout(workNiceScrollOnResize, 1000);
+});
