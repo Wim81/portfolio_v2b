@@ -676,10 +676,23 @@ a:active{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 
-em {
-    font-family: Titilium;
+#resume_link:link,
+#resume_link:visited,
+#resume_link:active
+{
     font-weight: bold;
-    font-size: 0.9em;
+    color: #084e96;
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+#resume_link:hover {
+    color: #9b0408;
+    transition: all 0.5s;
+}
+
+li {
+    text-align: center;
 }
 
 /* about external links */
@@ -943,6 +956,7 @@ em {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
+        align-items: flex-start;
         max-width: none;
         margin: 40px;
         overflow-y: auto;
@@ -969,11 +983,11 @@ em {
     #about_image {
         min-width: 220px;
         max-width: none;
-        padding: -20px;
-        /* width: 280px; */
+        padding: 20px;
         -webkit-box-flex: 0.5;
         -ms-flex: 0.5 1 0;
         flex: 0.5 1 0;
+        align-self: center;
     }
 
     .contact_form {

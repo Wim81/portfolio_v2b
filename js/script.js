@@ -2,7 +2,6 @@
 
 $(document).ready(function() {
 
-
     /* work link hover effect */
 
     $("#link_work_shape").hover(function() {
@@ -436,6 +435,18 @@ $(document).ready(function() {
     }
 
     $("#my_age").html(getAge("October 15, 1981 01:00:00"));
+
+
+    /* text fix if mobile */
+    function checkAboutText() {
+        if(window.innerWidth < 1000) {
+            $("#skill_ref").html("Just below the picture,");
+        } else {
+            $("#skill_ref").html("On the right,");
+        }
+    }
+    checkAboutText();
+    $( window ).resize(function() {checkAboutText();});
 
 });
 

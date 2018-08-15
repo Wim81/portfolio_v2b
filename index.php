@@ -289,19 +289,34 @@
             <div class="content_about">
 
                 <div id="about_text_1" class="about_item">
-                    <p>Hi, my name is Wim, and I am a web developer. I am currently <span id="my_age"></span> years old. I have worked for a Swiss pharmaceutical company for over 12 years, having had a mixture of responsibilities which included finance, technical support to the sales and marketing teams, number crunching and customer service. That was nice while it lasted, but my dream of becoming a web developer just did not want to disappear, so that's why went back to school to get me a web development degree.</p>
+                    <p>Hi, I’m Wim, and if you are looking for a web developer, you have come to the right place!</p>
                     <br>
-                    <p>In the summer of 2018, I graduated from Thomas More Hogeschool in Mechelen as a bachelor in Interactive Multimedia Design, option Web Development.</p>
+                    <p>I am currently <span id="my_age"></span> years old, and I live in Turnhout, Belgium. Before becoming a web developer, I have worked for Novartis for 12 years, initially in a customer service role, before moving into a business support role and eventually becoming a business planning analyst & sales analyst.</p>
+                    <br>
+                    <p>I had a good time there, but I knew I wanted to spend my energy on other things, so in 2015 I went back to school at Thomas More Hogeschool in Mechelen. In 2018, I graduated as a bachelor in Interactive Multimedia Design, option Web Development.</p>
+                    <br>
+                    <p>I am primarily fascinated by front-end development, but my skill set also extends into back-end development, mobile development and web design. <span id="skill_ref">On the right,</span> you can see a short summary of my most relevant skills.</p>
+                    <br>
+                    <p>If you wish to have a more detailed overview, you can download my <a id="resume_link" href="docs/CV_WimVerpoorten.pdf" target="_blank">resume</a>. Please note this is written in Dutch.</p>
+
                 </div>
 
                 <img src="images/bg_image_blue_on_white_v2.png" class="about_item" id="about_image">
 
                 <div id="about_text_2" class="about_item">
-                    <p>I have made this portfolio site to showcase the few initiatives which I have managed to squeeze in already, in between my busy study schedule.</p>
-                        <br>
-                        <p>I mainly like all things front-end: HTML, CSS/Sass, JS/Jquery. From a back-end point of view, I like working with PHP. Designing is fun as well. Even though I am not a trained illustrator, I know my way around Photoshop and Illustrator and I am always keen to learn new things.</p>
+                    <ul>
+                        <li>HTML5 / CSS3 / Sass</li>
+                        <li>Javascript / jQuery</li>
+                        <li>PHP / Laravel</li>
+                        <li>Java / Android</li>
+                        <li>Photoshop / Illustrator</li>
+                        <li>User Experience / Usability</li>
+                        <li>Git / GitHub</li>
+                    </ul>
                     <br>
-                    <p>If you want to say hi or have any question whatsoever, please do not hesitate to head over to the contact section and leave me a message. If not, if you'll excuse me please: I have some coding to do...</p>
+                    <p>This site contains a couple of projects which I managed to finish in between my busy study schedule. These can be found in the work section. I just love producing projects on the side, so I will be adding more examples of my work as time passes by.</p>
+                    <br>
+                    <p>If you want to get in touch, please head over to the contact section and leave me a message. Alternative ways of contacting me or finding more information on my work & mindset can be found at the bottom of this section. I am always looking forward to meeting new, interesting people!</p>
 
                     <div class="about_external_links">
                         <a href="https://github.com/Wim81" target="_blank">
