@@ -525,13 +525,19 @@ $( window ).resize(function() {
     timer = setTimeout(niceScrollOnResize, 1000);
 });
 
-/*
-$(".content_work").scroll(function(){
-    console.log("yea boi!!");
-    $(".content_work").getNiceScroll().resize();
-});*/
-
 $(".content_work").on('touchstart', function() {
+    $(this).css('overflow-x','scroll');
+    $(this).getNiceScroll().resize();
+    $(this).css('overflow-x','hidden');
+});
+
+$(".contact_form").on('touchstart', function() {
+    $(this).css('overflow-x','scroll');
+    $(this).getNiceScroll().resize();
+    $(this).css('overflow-x','hidden');
+});
+
+$(".content_about").on('touchstart', function() {
     $(this).css('overflow-x','scroll');
     $(this).getNiceScroll().resize();
     $(this).css('overflow-x','hidden');
