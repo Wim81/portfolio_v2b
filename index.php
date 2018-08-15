@@ -280,7 +280,7 @@
 
         <img src="images/logo_blue1.png" class="logo">
 
-        <div class="top_row">
+        <div class="top_row top_row_about">
             <div class="page_title" id="page_title_about">About</div>
             <p class="exit_p exit_about"></p>
         </div>

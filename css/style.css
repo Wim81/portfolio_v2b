@@ -635,6 +635,10 @@ a:active{
     background-color: #9b0408;
 }
 
+.top_row_about {
+    padding-bottom: 20px;
+}
+
 .content_about {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -649,7 +653,7 @@ a:active{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px 10px;
     background: rgba(231, 231, 231, 0.7);
     height: calc(100vh - 224px);
     overflow-x: hidden;
@@ -658,7 +662,11 @@ a:active{
 }
 
 .about_item {
-    padding: 20px;
+    padding: 0px 10px 20px 10px;
+}
+
+#about_text_2 {
+    padding-top: 20px;
 }
 
 #about_text_1, #about_text_2, #contact_intro {
@@ -1072,7 +1080,7 @@ li {
 
     #about_text_1, #about_text_2 {
         font-size: 1.2em;
-        line-height: 1.6em;
+        line-height: 1.5em;
     }
 }
 
