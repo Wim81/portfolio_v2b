@@ -1199,6 +1199,7 @@ li {
 
     .contact_form {
         height: calc(100vh - 164px);
+        max-height: calc(100vh - 164px);
         margin-bottom: 10px;
     }
 }
