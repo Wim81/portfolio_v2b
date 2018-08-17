@@ -363,7 +363,7 @@ $(document).ready(function() {
             next();
         });
 
-        if($(window).width() < 640) {
+        if($(window).width() < 640 || $(window).height() < 640) {
             $("#link_about1").delay(2000).queue(function (next) {
                 $(this).css("z-index", "0");
                 next();
