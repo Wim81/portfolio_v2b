@@ -1167,3 +1167,33 @@ li {
         transform: translateY(-60px);
     }
 }
+
+/*  HOOGTE media query om de verschillende sections voldoende plaats te geven voor content op "laag" scherm  */
+@media (max-height: 500px) {
+
+    .top_row {
+        padding-top: 10px;
+    }
+
+    .top_row_about {
+        padding-bottom: 0px;
+    }
+
+    .content_about {
+        height: calc(100vh - 154px);
+    }
+
+    .content_work {
+        margin-top: 10px;
+        height: calc(100vh - 120px);
+    }
+
+    .page_title {
+        font-size: 2.5em;
+    }
+
+    .exit_p {
+        width: 30px;
+        height: 30px;
+    }
+}
