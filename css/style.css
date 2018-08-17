@@ -1196,4 +1196,9 @@ li {
         width: 30px;
         height: 30px;
     }
+
+    .contact_form {
+        height: calc(100vh - 164px);
+        margin-bottom: 10px;
+    }
 }

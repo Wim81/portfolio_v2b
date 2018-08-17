@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50047f67-f003-4b01-9bc4-9da09c7c3121" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="1182" column="36" lean-forward="false" selection-start-line="1182" selection-start-column="36" selection-end-line="1182" selection-end-column="36" />
+            <state relative-caret-position="354">
+              <caret line="415" column="11" lean-forward="false" selection-start-line="415" selection-start-column="4" selection-end-line="415" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5753">
-              <caret line="245" column="61" lean-forward="true" selection-start-line="245" selection-start-column="61" selection-end-line="245" selection-end-column="61" />
+            <state relative-caret-position="387">
+              <caret line="365" column="37" lean-forward="true" selection-start-line="365" selection-start-column="37" selection-end-line="365" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -52,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content_work</find>
       <find>rgba</find>
       <find>content_contact</find>
       <find>link_cont</find>
@@ -82,6 +80,7 @@
       <find>1000px</find>
       <find>position</find>
       <find>transi</find>
+      <find>z-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +98,8 @@
         <option value="$PROJECT_DIR$/Homestead.yaml" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -290,12 +289,12 @@
       <workItem from="1534246210190" duration="11486000" />
       <workItem from="1534331845358" duration="7827000" />
       <workItem from="1534415517479" duration="132000" />
-      <workItem from="1534423103062" duration="2832000" />
+      <workItem from="1534423103062" duration="4030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254406000" />
+    <option name="totallyTimeSpent" value="255604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2178" height="1331" extended-state="6" />
@@ -650,18 +649,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5753">
-          <caret line="245" column="61" lean-forward="true" selection-start-line="245" selection-start-column="61" selection-end-line="245" selection-end-column="61" />
+        <state relative-caret-position="354">
+          <caret line="415" column="11" lean-forward="false" selection-start-line="415" selection-start-column="4" selection-end-line="415" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="1182" column="36" lean-forward="false" selection-start-line="1182" selection-start-column="36" selection-end-line="1182" selection-end-column="36" />
+        <state relative-caret-position="387">
+          <caret line="365" column="37" lean-forward="true" selection-start-line="365" selection-start-column="37" selection-end-line="365" selection-end-column="37" />
           <folding />
         </state>
       </provider>
