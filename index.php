@@ -186,10 +186,10 @@
                     <div class="work_item_link" id="work_item_link_3">view</div>
                 </a>
 
-                <a href=# class="work_item content_work_element" id="work_item_6" data-image-col='images/work/preview_0_placeholder.jpg', data-image-bw='images/work/preview_0_placeholder_bw.jpg'>
+                <a href="https://play.google.com/store/apps/details?id=com.verpoorten.wim.factcalculator" target="_blank" class="work_item content_work_element" id="work_item_6" data-image-col='images/work/preview_6_factcalculator.jpg', data-image-bw='images/work/preview_6_factcalculator_bw.jpg'>
                     <div class="work_item_label" id="work_item_label_6">
-                        <h2>Native App</h2>
-                        <p>coming soon: native android app</p>
+                        <h2>Fact Calculator</h2>
+                        <p>native android app using an api</p>
                     </div>
                     <div class="work_item_link" id="work_item_link_6">view</div>
                 </a>
