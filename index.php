@@ -325,7 +325,7 @@
                         <a href="https://medium.com/@wimverpoorten" target="_blank">
                             <i class="fab fa-medium"></i>
                         </a>
-                        <a href="" target="_blank">
+                        <a href="https://www.linkedin.com/in/wimverpoortenwebdeveloper/" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
