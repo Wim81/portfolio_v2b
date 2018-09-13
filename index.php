@@ -172,7 +172,7 @@
                     <div class="work_item_link" id="work_item_link_1">view</div>
                 </a>
 
-                <a href="http://www.inheremusic.com" target="_blank" class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_2_inhere.jpg', data-image-bw='images/work/preview_2_inhere_bw.jpg'>
+                <a href="https://www.inheremusic.com" target="_blank" class="work_item content_work_element" id="work_item_2" data-image-col='images/work/preview_2_inhere.jpg', data-image-bw='images/work/preview_2_inhere_bw.jpg'>
                     <div class="work_item_label" id="work_item_label_2">
                         <h2>Website InHere</h2>
                         <p>coming soon: website for my musical project</p>
