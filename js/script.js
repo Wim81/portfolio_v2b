@@ -551,3 +551,41 @@ $(".content_about").on('touchstart', function() {
     $(this).getNiceScroll().resize();
     $(this).css('overflow-x','hidden');
 });
+
+/*  preloading of images to avoid "flickering" effect when hovering over work items for first time  */
+
+var images = [];
+function preload() {
+    for (var i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+}
+
+//-- usage --//
+preload(
+    "images/bg_image_blue_v3.png",
+    "images/bg_image_red_v2.png",
+    "images/logo_gradient1.png",
+    "images/logo_white1.png",
+    "images/logo_blue1.png",
+    "images/crystal_bg_work.png",
+    "images/crystal_bg_about.png",
+    "images/crystal_bg_contact.png",
+    "images/work/preview_1_bauweraertsjef.jpg",
+    "images/work/preview_1_bauweraertsjef_bw.jpg",
+    "images/work/preview_2_inhere.jpg",
+    "images/work/preview_2_inhere_bw.jpg",
+    "images/work/preview_3_hangman.jpg",
+    "images/work/preview_3_hangman_bw.jpg",
+    "images/work/preview_4_christmasinvaders.jpg",
+    "images/work/preview_4_christmasinvaders_bw.jpg",
+    "images/work/preview_5_googledoodle.jpg",
+    "images/work/preview_5_googledoodle_bw.jpg",
+    "images/work/preview_6_factcalculator.jpg",
+    "images/work/preview_6_factcalculator_bw.jpg",
+    "images/bg_image_blue_on_white2.jpg",
+    "images/exit_button_1d_blue_transparent.png",
+    "images/exit_button_1d_red_transparent.png",
+    "images/exit_button_1d_white_transparent.png"
+);
