@@ -300,15 +300,13 @@
             <div class="content_about">
 
                 <div id="about_text_1" class="about_item">
-                    <p>Hi, I’m Wim, and if you are looking for a web developer, you have come to the right place!</p>
+                    <p>Hi, I’m Wim, and I am a web developer, currently working for <a href="https://www.ivalue.be/" target="_blank" id="ivalue_link">iValue</a> in Antwerp, a web agency which focuses on online presence, digital performance & marketing.</p>
                     <br>
-                    <p>I am currently <span id="my_age"></span> years old, and I live in Turnhout, Belgium. Before becoming a web developer, I have worked for Novartis for 12 years, initially in a customer service role, before moving into a business support role and eventually becoming a business planning analyst & sales analyst.</p>
+                    <p>I am <span id="my_age"></span> years old, and I live in Turnhout, Belgium. Before becoming a web developer, I have worked for Novartis for 12 years, initially in a customer service role, before moving into a business support role and eventually becoming a business planning analyst & sales analyst.</p>
                     <br>
                     <p>I had a good time there, but I knew I wanted to spend my energy on other things, so in 2015 I went back to school at Thomas More Hogeschool in Mechelen. In 2018, I graduated as a bachelor in Interactive Multimedia Design, option Web Development.</p>
                     <br>
-                    <p>I am primarily fascinated by front-end development, but my skill set also extends into back-end development, mobile development and web design. <span id="skill_ref">On the right,</span> you can see a short summary of my most relevant skills.</p>
-                    <br>
-                    <p>If you wish to have a more detailed overview, you can download my <a id="resume_link" href="docs/CV_WimVerpoorten.pdf" target="_blank">resume</a>. Please note this is written in Dutch.</p>
+                    <p>My main interest is in front-end development, which is what I focus on primarily in my current job as well, but my skill set also extends into back-end development, mobile development and web design. <span id="skill_ref">On the right,</span> you can see a short summary of my most relevant skills.</p>
 
                 </div>
 
@@ -325,7 +323,7 @@
                         <li>Git / GitHub</li>
                     </ul>
                     <br>
-                    <p>This site contains a couple of projects which I managed to finish in between my busy study schedule. These can be found in the work section. I just love producing projects on the side, so I will be adding more examples of my work as time passes by.</p>
+                    <p>This site contains a couple of projects which I managed to finish in between my busy study & work schedule. These can be found in the work section. I just love producing projects on the side, so I will be adding more examples of my work as time passes by.</p>
                     <br>
                     <p>If you want to get in touch, please head over to the contact section and leave me a message. Alternative ways of contacting me or finding more information on my work & mindset can be found at the bottom of this section. I am always looking forward to meeting new, interesting people!</p>
 

@@ -686,9 +686,9 @@ a:active{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 
-#resume_link:link,
-#resume_link:visited,
-#resume_link:active
+#ivalue_link:link,
+#ivalue_link:visited,
+#ivalue_link:active
 {
     font-weight: bold;
     color: #084e96;
@@ -696,9 +696,10 @@ a:active{
     transition: all 0.5s;
 }
 
-#resume_link:hover {
+#ivalue_link:hover {
     color: #9b0408;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 li {
