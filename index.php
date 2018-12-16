@@ -46,10 +46,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-    <!--  offline backup jQuery
-    <script src="js/jquery-2.1.4.min.js"></script>  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -345,8 +342,8 @@
         </div>  <!--  einde van de wrapper  -->
 </div>  <!--  einde about section  -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/app.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
