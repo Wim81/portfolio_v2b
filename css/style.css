@@ -727,6 +727,47 @@ li {
     transition: all 0.5s;
 }
 
+a[tooltip] {
+    position: relative;
+}
+
+a[tooltip]::after {
+    content: attr(tooltip);
+    display: block;
+    position: absolute;
+    background-color: #9b0408;
+    color: #e7e7e7;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    opacity: 0.8;
+    bottom: 0;
+    transform: scale(0);
+    transition:
+        transform 250ms ease-out,
+        bottom 250ms ease-out;
+}
+
+a[tooltip]:hover::after {
+    transform: scale(1);
+    bottom: 120%;
+}
+
+a.ext_github:after {
+    left: calc(-50% - 7px);
+}
+
+a.ext_codepen:after {
+    left: calc(-50% - 12px);
+}
+
+a.ext_medium:after {
+    left: calc(-50% - 15px);
+}
+
+a.ext_linkedin:after {
+    left: calc(-50% - 15px);
+}
 
 /* backgrounds voor 3 divs */
 

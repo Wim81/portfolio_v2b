@@ -325,13 +325,16 @@
                     <p>If you want to get in touch, please head over to the contact section and leave me a message. Alternative ways of contacting me or finding more information on my work & mindset can be found at the bottom of this section. I am always looking forward to meeting new, interesting people!</p>
 
                     <div class="about_external_links">
-                        <a href="https://github.com/Wim81" target="_blank">
+                        <a href="https://github.com/Wim81" class="ext_github" target="_blank" tooltip="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://medium.com/@wimverpoorten" target="_blank">
+                        <a href="https://codepen.io/wim81/" class="ext_codepen" target="_blank" tooltip="CodePen">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                        <a href="https://medium.com/@wimverpoorten" class="ext_medium" target="_blank" tooltip="Medium">
                             <i class="fab fa-medium"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/wimverpoortenwebdeveloper/" target="_blank">
+                        <a href="https://www.linkedin.com/in/wimverpoortenwebdeveloper/" class="ext_linkedin" target="_blank" tooltip="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
