@@ -312,12 +312,13 @@
                 <div id="about_text_2" class="about_item">
                     <ul>
                         <li>HTML5 / CSS3 / Sass</li>
+                        <li>Bootstrap / Gulp / Git</li>
                         <li>Javascript / jQuery</li>
+                        <li>WordPress & Drupal theming</li>
                         <li>PHP / Laravel</li>
                         <li>Java / Android</li>
                         <li>Photoshop / Illustrator</li>
                         <li>User Experience / Usability</li>
-                        <li>Git / GitHub</li>
                     </ul>
                     <br>
                     <p>This site contains a couple of projects which I managed to finish in between my busy study & work schedule. These can be found in the work section. I just love producing projects on the side, so I will be adding more examples of my work as time passes by.</p>
