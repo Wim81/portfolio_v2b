@@ -329,7 +329,7 @@
                         <a href="https://github.com/Wim81" class="ext_github" target="_blank" tooltip="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://codepen.io/wim81/" class="ext_codepen" target="_blank" tooltip="CodePen">
+                        <a href="https://codepen.io/Wim_V/" class="ext_codepen" target="_blank" tooltip="CodePen">
                             <i class="fab fa-codepen"></i>
                         </a>
                         <a href="https://medium.com/@wimverpoorten" class="ext_medium" target="_blank" tooltip="Medium">
