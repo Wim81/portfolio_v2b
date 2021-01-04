@@ -297,9 +297,9 @@
             <div class="content_about">
 
                 <div id="about_text_1" class="about_item">
-                    <p>Hi, I’m Wim, and I am a web developer, currently working for <a href="https://www.ivalue.be/" target="_blank" id="ivalue_link">iValue</a> in Antwerp, a web agency which focuses on online presence, digital performance & marketing.</p>
+                    <p>Hi, I’m Wim, and I am a web developer.</p>
                     <br>
-                    <p>I am <span id="my_age"></span> years old, and I live in Turnhout, Belgium. Before becoming a web developer, I have worked for Novartis for 12 years, initially in a customer service role, before moving into a business support role and eventually becoming a business planning analyst & sales analyst.</p>
+                    <p>I am <span id="my_age"></span> years old, and I live in Deurne, Belgium. Before becoming a web developer, I have worked for Novartis for 12 years, initially in a customer service role, before moving into a business support role and eventually becoming a business planning analyst & sales analyst.</p>
                     <br>
                     <p>I had a good time there, but I knew I wanted to spend my energy on other things, so in 2015 I went back to school at Thomas More Hogeschool in Mechelen. In 2018, I graduated as a bachelor in Interactive Multimedia Design, option Web Development.</p>
                     <br>
